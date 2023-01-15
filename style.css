@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d9cdf7;
+}
+
+body * {
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.hide {
+  display: none;
+}
+
+.card {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+
+.product-image {
+  position: relative;
+}
+
+.product-image .icon-360 {
+  position: absolute;
+
+  right: 50px;
+
+  cursor: pointer;
+}
+
+.product-image .icon-closed {
+  position: absolute;
+
+  right: 60px;
+}
+
+.product-image img {
+  max-width: 449px;
+}
+
+.product-info button {
+  font-size: 12px;
+  line-height: 16px;
+
+  text-transform: uppercase;
+
+  margin-top: 20px;
+  padding: 8px 16px;
+
+  color: #271a45;
+
+  border: 0.5px solid #271a45;
+  border-radius: 999px;
+  background: transparent;
+
+  cursor: pointer;
+}
+
+.info {
+  display: grid;
+  gap: 12px;
+}
+
+.info span {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 100%;
+
+  color: #271a45;
+  opacity: 0.8;
+}
+.info h1 {
+  font-family: 'Crimson Pro';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+
+  color: #271a45;
+}
+
+.info p {
+  font-size: 16px;
+  line-height: 100%;
+
+  color: #271a45;
+  opacity: 0.8;
+}
