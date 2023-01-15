@@ -34,16 +34,14 @@ main {
 
 .product-image .icon-360 {
   position: absolute;
-
   right: 50px;
-
   cursor: pointer;
 }
 
 .product-image .icon-closed {
   position: absolute;
-
   right: 60px;
+  cursor: pointer;
 }
 
 .product-image img {
@@ -96,4 +94,11 @@ main {
 
   color: #271a45;
   opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
 }
