@@ -15,7 +15,7 @@ function handleClickDeactive360() {
   let productImage = document.querySelector('#image');
 
   if (productImage.src === productImage.src) {
-    productImage.setAttribute('src', '/assets/img/static-sofa.png');
+    productImage.setAttribute('src', '/assets/img/image-sofa.png');
     iconClosed.classList.add('hide');
     icon360.classList.remove('hide');
   }
