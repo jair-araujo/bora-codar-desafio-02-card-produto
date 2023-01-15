@@ -5,7 +5,7 @@ function handleClickActive360() {
   let productImage = document.querySelector('#image');
 
   if (productImage.src === productImage.src) {
-    productImage.setAttribute('src', '/assets/img/animated-sofa.gif');
+    productImage.setAttribute('src', 'assets/img/animated-sofa.gif');
     icon360.classList.add('hide');
     iconClosed.classList.remove('hide');
   }
@@ -15,7 +15,7 @@ function handleClickDeactive360() {
   let productImage = document.querySelector('#image');
 
   if (productImage.src === productImage.src) {
-    productImage.setAttribute('src', '/assets/img/static-sofa.png');
+    productImage.setAttribute('src', 'assets/img/static-sofa.png');
     iconClosed.classList.add('hide');
     icon360.classList.remove('hide');
   }
